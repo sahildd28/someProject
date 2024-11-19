@@ -9,7 +9,7 @@ import LinkGrid from "../components/links/LinkGrid";
 // import Footer from "../components/Footer";
 module.exports = {
   output: 'export', // Enable static export
-  basePath: '/your-repository-name', // Optional: Set this if your repository name is not the root
+  basePath: 'https://github.com/sahildd28/someProject', // Optional: Set this if your repository name is not the root
   trailingSlash: true, // Optional: Adds a trailing slash to your URLs
 };
 export default function Home() {
