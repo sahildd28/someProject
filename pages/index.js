@@ -73,7 +73,7 @@ export default function Home() {
           <h1 className="popup-text">{popupText}</h1>
           {popupText === "BTW Nupur \n 👉👈" ? (
             <button            
-              className="Yes?-button"
+              className="yes-button"
               onClick={() => setPopupText("I love you😊")}
             >
               ➡️ Yes
