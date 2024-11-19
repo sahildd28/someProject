@@ -9,12 +9,14 @@
     "start": "next start -p 80",
     "analyze": "cross-env ANALYZE=true next build",
     "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
-    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "axios": "^0.20.0",
     "canvas-confetti": "^1.9.3",
     "date-fns": "^2.15.0",
+    "gh-pages": "^6.2.0",
     "next": "^9.5.2",
     "react": "^16.13.1",
     "react-confetti": "^6.1.0",
