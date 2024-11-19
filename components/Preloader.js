@@ -9,7 +9,7 @@ function Preloader(props) {
                 width={50}
                 timeout={10000}
             />
-            <code className={`${props.dark ? "dark-code" : ""}`}>project ur-a-cutie</code>
+            <code className={`${props.dark ? "dark-code" : ""}`}>Opening Our Comfort Zone..</code>
             <style jsx>{`
       .dark {
         background: #212121;
