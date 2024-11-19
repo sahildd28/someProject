@@ -13,7 +13,7 @@ export default function Home() {
   const [days, setDays] = useState([undefined, undefined, undefined, undefined, undefined]);
   const [compliment, setCompliment] = useState("");
   const [showPopup, setShowPopup] = useState(false); 
-  const [popupText, setPopupText] = useState("Here is your daily dose of BTW Nupur");
+  const [popupText, setPopupText] = useState("BTW Nupur \n 👉👈");
   const [showLoveText, setShowLoveText] = useState(false);
 
   useEffect(() => {
@@ -38,6 +38,7 @@ export default function Home() {
       colors: ["#ff69b4", "#ff1493", "#ff4500", "#ffd700", "#1e90ff", "#7cfc00"],
     });
     setShowLoveText(true);
+    setShowPopup(false);
   };
 
   const togglePopup = () => {
@@ -70,10 +71,10 @@ export default function Home() {
         {showPopup && (
         <div className="popup">
           <h1 className="popup-text">{popupText}</h1>
-          {popupText === "Here is your daily dose of BTW Nupur" ? (
+          {popupText === "BTW Nupur \n 👉👈" ? (
             <button            
-              className="yes-button"
-              onClick={() => setPopupText("I love you")}
+              className="Yes?-button"
+              onClick={() => setPopupText("I love you😊")}
             >
               ➡️ Yes
             </button>
@@ -100,8 +101,10 @@ export default function Home() {
       {showLoveText && (
         <div className="love-text">
           <h1>I LOVE YOU TOO</h1>
-        </div>
-      )}
+        </div>      
+      )
+      }
+       
         <div className="dailyDose">
           <Bell
             onClick={() => togglePopup(true)}
