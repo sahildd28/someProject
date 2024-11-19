@@ -7,11 +7,7 @@ import axios from "axios";
 import Preloader from "../components/Preloader";
 import LinkGrid from "../components/links/LinkGrid";
 // import Footer from "../components/Footer";
-module.exports = {
-  output: 'export', // Enable static export
-  basePath: 'https://github.com/sahildd28/someProject', // Optional: Set this if your repository name is not the root
-  trailingSlash: true, // Optional: Adds a trailing slash to your URLs
-};
+
 export default function Home() {
   const [dark, setDark] = useState(true);
   const [days, setDays] = useState([undefined, undefined, undefined, undefined, undefined]);
