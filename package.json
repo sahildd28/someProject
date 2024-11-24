@@ -23,7 +23,8 @@
     "react-dom": "^16.13.1",
     "react-feather": "^2.0.8",
     "react-loader-spinner": "^3.1.14",
-    "react-loading-skeleton": "^2.1.1"
+    "react-loading-skeleton": "^2.1.1",
+    "webpack": "^5.96.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^9.5.2",
