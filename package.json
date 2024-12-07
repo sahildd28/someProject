@@ -28,7 +28,11 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^9.5.2",
-    "cross-env": "^7.0.2",
+    "cross-env": "^7.0.3",
     "gh-pages": "^6.2.0"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": ">=6"
   }
 }
