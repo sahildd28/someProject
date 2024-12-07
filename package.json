@@ -14,20 +14,20 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^1.7.9",
     "canvas-confetti": "^1.9.3",
-    "date-fns": "^2.15.0",
-    "next": "^9.5.2",
-    "react": "^16.13.1",
+    "date-fns": "^4.1.0",
+    "next": "^15.0.4",
+    "react": "^19.0.0",
     "react-confetti": "^6.1.0",
-    "react-dom": "^16.13.1",
+    "react-dom": "^19.0.0",
     "react-feather": "^2.0.8",
-    "react-loader-spinner": "^3.1.14",
-    "react-loading-skeleton": "^2.1.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-loading-skeleton": "^3.5.0",
     "webpack": "^5.96.1"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^9.5.2",
+    "@next/bundle-analyzer": "^15.0.4",
     "cross-env": "^7.0.3",
     "gh-pages": "^6.2.0"
   },
